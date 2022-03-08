@@ -25,4 +25,12 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/88634981/157228142-f0a7707e-8be1-4293-ac3c-886611d2bb25.mp4' title='Creating an account by signing up, scrolling through feed' width='' alt='Video Walkthrough' />
+
+<img src='https://user-images.githubusercontent.com/88634981/157228353-10d6c996-a443-43ff-a2e0-2e3dd66e9f20.mp4' title='Logging back in, creating a new post and scrolling' width='' alt='Video Walkthrough' />
+
+<img src='https://user-images.githubusercontent.com/88634981/157228512-3d9fc9b8-115a-4620-ad44-ecde88617acf.mp4' title='Reviewing Parse database' width='' alt='Video Walkthrough' />
+
+
+
+
