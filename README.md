@@ -21,6 +21,10 @@ The following **bonus** features are implemented:
 ## Video Walkthrough!
 
 
+<img src='https://user-images.githubusercontent.com/88634981/158448775-cfcf3d35-5738-469e-b139-2074cf98d36d.mp4' title='User stays logged in across restarts'/>
+
+
+
 <img src='https://user-images.githubusercontent.com/88634981/158314981-48a078cf-8ece-429a-94d9-db508f0cdf2a.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # instagram
