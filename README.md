@@ -18,9 +18,10 @@ The following **bonus** features are implemented:
 - [ ] User can add a profile picture. (2pts)
 - [ ] Profile pictures are shown for posts and comments. (2pts)
 
-## Video Walkthrough
+## Video Walkthrough!
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://user-images.githubusercontent.com/88634981/158314981-48a078cf-8ece-429a-94d9-db508f0cdf2a.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # instagram
 instagram clone feed for pictures sharing!
