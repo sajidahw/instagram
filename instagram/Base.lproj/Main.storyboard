@@ -92,7 +92,7 @@
         <!--Feed View Controller-->
         <scene sceneID="Stt-pm-e1Z">
             <objects>
-                <viewController storyboardIdentifier="FeedNavigationController" modalPresentationStyle="fullScreen" id="37n-0R-ZbW" customClass="FeedViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedNavigationController" id="37n-0R-ZbW" customClass="FeedViewController" customModule="instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FhZ-9V-5b5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,38 +110,42 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-Ix-1Q3">
-                                                    <rect key="frame" x="8" y="8" width="398" height="499.5"/>
+                                                    <rect key="frame" x="8" y="8" width="398" height="499"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="G3f-Ix-1Q3" secondAttribute="height" multiplier="398:499" id="1A8-0y-yzP"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="Wow, I love it!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmT-hh-Gx5">
-                                                    <rect key="frame" x="80" y="515.5" width="326" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Wow, I love it!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmT-hh-Gx5">
+                                                    <rect key="frame" x="100" y="515" width="306" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-ZA-LNL">
-                                                    <rect key="frame" x="8" y="515.5" width="64" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-ZA-LNL">
+                                                    <rect key="frame" x="16" y="515" width="76" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="76" id="PKm-M7-e6i"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="centerY" secondItem="NmT-hh-Gx5" secondAttribute="centerY" id="1CJ-CY-7zn"/>
-                                                <constraint firstItem="NmT-hh-Gx5" firstAttribute="leading" secondItem="RFG-ZA-LNL" secondAttribute="trailing" constant="8" id="7Qj-A1-sQM"/>
+                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="firstBaseline" secondItem="NmT-hh-Gx5" secondAttribute="firstBaseline" id="0Td-Hn-2KJ"/>
+                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="baseline" secondItem="NmT-hh-Gx5" secondAttribute="baseline" id="AXU-Di-MNq"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NmT-hh-Gx5" secondAttribute="bottom" constant="8" id="G4c-GS-Ozq"/>
                                                 <constraint firstAttribute="trailing" secondItem="G3f-Ix-1Q3" secondAttribute="trailing" constant="8" id="Gqg-Xq-22C"/>
                                                 <constraint firstItem="G3f-Ix-1Q3" firstAttribute="top" secondItem="sMh-Rt-GNL" secondAttribute="top" constant="8" id="HX2-xT-SlA"/>
-                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="leading" secondItem="sMh-Rt-GNL" secondAttribute="leading" constant="16" id="Lrs-mG-KQu"/>
-                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="leading" secondItem="sMh-Rt-GNL" secondAttribute="leading" constant="16" id="PYT-7V-dYu"/>
+                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="leading" secondItem="sMh-Rt-GNL" secondAttribute="leadingMargin" constant="-4" id="IsG-yu-Oag"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="RFG-ZA-LNL" secondAttribute="bottom" constant="-3" id="a4r-SP-UTV"/>
+                                                <constraint firstItem="NmT-hh-Gx5" firstAttribute="top" secondItem="G3f-Ix-1Q3" secondAttribute="bottom" constant="8" id="afV-PT-f8t"/>
                                                 <constraint firstAttribute="trailing" secondItem="NmT-hh-Gx5" secondAttribute="trailing" constant="8" id="bHe-rd-Itd"/>
-                                                <constraint firstAttribute="bottom" secondItem="RFG-ZA-LNL" secondAttribute="bottom" constant="8" id="cC9-GP-xvW"/>
-                                                <constraint firstItem="RFG-ZA-LNL" firstAttribute="top" secondItem="G3f-Ix-1Q3" secondAttribute="bottom" constant="8" id="g5R-jn-aMC"/>
-                                                <constraint firstItem="NmT-hh-Gx5" firstAttribute="baseline" secondItem="RFG-ZA-LNL" secondAttribute="firstBaseline" id="l3z-X9-TN8"/>
+                                                <constraint firstAttribute="bottom" secondItem="NmT-hh-Gx5" secondAttribute="bottom" constant="8" id="eAM-46-HEU"/>
                                                 <constraint firstItem="NmT-hh-Gx5" firstAttribute="top" secondItem="G3f-Ix-1Q3" secondAttribute="bottom" constant="8" id="mo2-2l-LKy"/>
+                                                <constraint firstAttribute="trailing" secondItem="NmT-hh-Gx5" secondAttribute="trailing" constant="8" id="o29-uj-32Y"/>
                                                 <constraint firstItem="G3f-Ix-1Q3" firstAttribute="leading" secondItem="sMh-Rt-GNL" secondAttribute="leading" constant="8" id="piD-Hg-kJD"/>
+                                                <constraint firstItem="NmT-hh-Gx5" firstAttribute="leading" secondItem="RFG-ZA-LNL" secondAttribute="trailing" constant="8" id="qp3-5F-zUv"/>
                                                 <constraint firstItem="NmT-hh-Gx5" firstAttribute="top" secondItem="G3f-Ix-1Q3" secondAttribute="bottom" constant="8" id="zZ2-UH-G9V"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -218,7 +222,7 @@
                     <navigationItem key="navigationItem" id="bi1-u7-iL2">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="u61-3K-lIP">
                             <connections>
-                                <action selector="onLogoutButton:" destination="37n-0R-ZbW" id="lBe-kU-sQB"/>
+                                <action selector="onLogoutButton:" destination="37n-0R-ZbW" id="UL0-TB-6kW"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="EuO-90-Fds">

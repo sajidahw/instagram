@@ -178,8 +178,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     //what happens when they tap the logout button
-        func onLogoutButton(_ sender: Any) {
-        
+    @IBAction func onLogoutButton(_ sender: Any) {
         PFUser.logOut()//logs out and clears cache
         
         let main = UIStoryboard(name: "Main", bundle: nil)
