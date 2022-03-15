@@ -11,6 +11,9 @@ import Parse
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    // user can logout with button
+    
 
 // user stays logged in across restarts
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

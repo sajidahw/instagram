@@ -1,0 +1,6 @@
+framework module Pods_instagram_instagramUITests {
+  umbrella header "Pods-instagram-instagramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
