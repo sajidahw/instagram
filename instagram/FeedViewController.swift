@@ -184,7 +184,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let main = UIStoryboard(name: "Main", bundle: nil)
         let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
         
-        let delegate = UIApplication.shared.delegate as! AppDelegate
+//        let delegate = UIApplication.shared.delegate as! AppDelegate
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
               let delegate = windowScene.delegate as? SceneDelegate else { return }
         
