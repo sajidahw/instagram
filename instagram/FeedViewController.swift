@@ -190,6 +190,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         delegate.window?.rootViewController = loginViewController
     }
+ 
     
     /*
     // MARK: - Navigation

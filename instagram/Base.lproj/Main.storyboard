@@ -222,7 +222,7 @@
                     <navigationItem key="navigationItem" id="bi1-u7-iL2">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="u61-3K-lIP">
                             <connections>
-                                <action selector="onLogoutButton:" destination="37n-0R-ZbW" id="UL0-TB-6kW"/>
+                                <action selector="onLogoutButton:" destination="37n-0R-ZbW" id="PNk-Pw-xwV"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="EuO-90-Fds">
