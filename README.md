@@ -21,7 +21,7 @@ The following **bonus** features are implemented:
 ## Video Walkthrough!
 
 
-<img src='https://user-images.githubusercontent.com/88634981/158314981-48a078cf-8ece-429a-94d9-db508f0cdf2a.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/88634981/158314981-48a078cf-8ece-429a-94d9-db508f0cdf2a.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # instagram
 instagram clone feed for pictures sharing!
