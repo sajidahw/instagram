@@ -21,7 +21,8 @@ The following **bonus** features are implemented:
 ## Video Walkthrough!
 
 
-<img src='https://user-images.githubusercontent.com/88634981/158448775-cfcf3d35-5738-469e-b139-2074cf98d36d.mp4' title='User stays logged in across restarts'/>
+<img src='https://user-images.git![persistentLoginiG (1)](https://user-images.githubusercontent.com/88634981/159797084-2ae29169-0276-4f9c-82f1-54b72dc2fe55.gif)
+hubusercontent.com/88634981/158448775-cfcf3d35-5738-469e-b139-2074cf98d36d.mp4' title='User stays logged in across restarts'/>
 
 
 
